@@ -1,4 +1,4 @@
-import { useWallet } from '@rentfuse-labs/neo-wallet-adapter-react';
+import { useWallet } from '@boxfox/neo-wallet-adapter-react';
 import React, { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { WalletButton, WalletButtonProps } from './wallet-button';
 import { useWalletModal } from '../hooks/use-wallet-modal';

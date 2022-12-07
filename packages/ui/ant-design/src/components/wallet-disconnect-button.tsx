@@ -1,4 +1,4 @@
-import { useWallet } from '@rentfuse-labs/neo-wallet-adapter-react';
+import { useWallet } from '@boxfox/neo-wallet-adapter-react';
 import { Button, ButtonProps } from 'antd';
 import React, { MouseEventHandler, useCallback, useMemo } from 'react';
 import { WalletIcon } from './wallet-icon';

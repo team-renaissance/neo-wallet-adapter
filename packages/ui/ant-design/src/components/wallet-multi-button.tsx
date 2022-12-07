@@ -3,7 +3,7 @@ import {
 	DisconnectOutlined as DisconnectIcon,
 	SwapOutlined as SwitchIcon,
 } from '@ant-design/icons';
-import { useWallet } from '@rentfuse-labs/neo-wallet-adapter-react';
+import { useWallet } from '@boxfox/neo-wallet-adapter-react';
 import { Button, ButtonProps, Dropdown, Menu } from 'antd';
 import React, { useMemo } from 'react';
 import { useWalletModal } from '../hooks';

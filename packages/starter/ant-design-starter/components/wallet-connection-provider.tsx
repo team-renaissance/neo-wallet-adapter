@@ -1,7 +1,7 @@
 import React from 'react';
-import { getNeoLineWallet, getO3Wallet, getNeonWalletConnectWallet } from '@rentfuse-labs/neo-wallet-adapter-wallets';
+import { getNeoLineWallet, getO3Wallet, getNeonWalletConnectWallet } from '@boxfox/neo-wallet-adapter-wallets';
 import { ReactNode, useMemo } from 'react';
-import { WalletProvider } from '@rentfuse-labs/neo-wallet-adapter-react';
+import { WalletProvider } from '@boxfox/neo-wallet-adapter-react';
 
 export const WalletConnectionProvider = React.memo(function WalletConnectionProvider({
 	children,

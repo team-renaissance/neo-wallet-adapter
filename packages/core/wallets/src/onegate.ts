@@ -1,4 +1,4 @@
-import { OneGateWalletAdapter, OneGateWalletAdapterConfig } from '@rentfuse-labs/neo-wallet-adapter-onegate';
+import { OneGateWalletAdapter, OneGateWalletAdapterConfig } from '@boxfox/neo-wallet-adapter-onegate';
 import { Wallet, WalletName } from './types';
 
 export const getOneGateWallet = (config?: OneGateWalletAdapterConfig): Wallet => ({

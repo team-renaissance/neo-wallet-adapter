@@ -1,4 +1,4 @@
-import { NeoLineWalletAdapter, NeoLineWalletAdapterConfig } from '@rentfuse-labs/neo-wallet-adapter-neoline';
+import { NeoLineWalletAdapter, NeoLineWalletAdapterConfig } from '@boxfox/neo-wallet-adapter-neoline';
 import { Wallet, WalletName } from './types';
 
 export const getNeoLineWallet = (config?: NeoLineWalletAdapterConfig): Wallet => ({

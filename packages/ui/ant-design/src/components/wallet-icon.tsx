@@ -1,4 +1,4 @@
-import { Wallet } from '@rentfuse-labs/neo-wallet-adapter-wallets';
+import { Wallet } from '@boxfox/neo-wallet-adapter-wallets';
 import React, { DetailedHTMLProps, ImgHTMLAttributes } from 'react';
 
 export interface WalletIconProps extends DetailedHTMLProps<ImgHTMLAttributes<HTMLImageElement>, HTMLImageElement> {

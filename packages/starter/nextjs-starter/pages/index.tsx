@@ -1,7 +1,7 @@
 import { wallet } from '@cityofzion/neon-js';
-import { WitnessScope } from '@rentfuse-labs/neo-wallet-adapter-base';
-import { useWallet } from '@rentfuse-labs/neo-wallet-adapter-react';
-import { WalletDisconnectButton, WalletMultiButton } from '@rentfuse-labs/neo-wallet-adapter-react-ui';
+import { WitnessScope } from '@boxfox/neo-wallet-adapter-base';
+import { useWallet } from '@boxfox/neo-wallet-adapter-react';
+import { WalletDisconnectButton, WalletMultiButton } from '@boxfox/neo-wallet-adapter-react-ui';
 import { NextPage } from 'next';
 import Head from 'next/head';
 import Image from 'next/image';

@@ -1,5 +1,5 @@
 {
-	"name": "@rentfuse-labs/neo-wallet-adapter-base",
+	"name": "@boxfox/neo-wallet-adapter-base",
 	"version": "0.4.0",
 	"author": "Rentfuse Labs",
 	"repository": "https://github.com/rentfuse-labs/neo-wallet-adapter",
@@ -14,7 +14,7 @@
 		"LICENSE"
 	],
 	"publishConfig": {
-		"access": "public"
+		"registry": "https://boxfox.bytesafe.dev/r/boxfox/"
 	},
 	"scripts": {
 		"clean": "shx rm -rf lib/*",

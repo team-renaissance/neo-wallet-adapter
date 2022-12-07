@@ -16,28 +16,27 @@ Install these dependencies:
 yarn add @rentfuse-labs/neo-wallet-adapter-wallets @rentfuse-labs/neo-wallet-adapter-base @rentfuse-labs/neo-wallet-adapter-react @rentfuse-labs/neo-wallet-adapter-react-ui @cityofzion/neon-js@next react
 ```
 
-or 
-
+or
 
 ```shell
 npm install @rentfuse-labs/neo-wallet-adapter-wallets @rentfuse-labs/neo-wallet-adapter-base @rentfuse-labs/neo-wallet-adapter-react @rentfuse-labs/neo-wallet-adapter-react-ui @cityofzion/neon-js@next react
 ```
 
-or 
+or
 
 ```html
 <!DOCTYPE html>
 <html>
-  ...
-  <script src="https://www.unpkg.com/@rentfuse-labs/neo-wallet-adapter-bundle@0.3.0/lib/neo-wallet-adapter.web.js"></script>
-  <script>
-    // ...
-    // Global variable
-    NeoWalletAdapter.fun1('Five');
-    // Property in the window object
-    window.NeoWalletAdapter.fun1('Five');
-    // ...
-  </script>
+	...
+	<script src="https://www.unpkg.com/@rentfuse-labs/neo-wallet-adapter-bundle@0.3.0/lib/neo-wallet-adapter.web.js"></script>
+	<script>
+		// ...
+		// Global variable
+		NeoWalletAdapter.fun1('Five');
+		// Property in the window object
+		window.NeoWalletAdapter.fun1('Five');
+		// ...
+	</script>
 </html>
 ```
 
@@ -45,14 +44,10 @@ or
 
 ```tsx
 import React, { useMemo } from 'react';
-import { WalletProvider } from '@rentfuse-labs/neo-wallet-adapter-react';
-import { WalletAdapterNetwork } from '@rentfuse-labs/neo-wallet-adapter-base';
-import { getNeoLineWallet, getO3Wallet, getWalletConnect } from '@rentfuse-labs/neo-wallet-adapter-wallets';
-import {
-	WalletModalProvider,
-	WalletDisconnectButton,
-	WalletMultiButton,
-} from '@rentfuse-labs/neo-wallet-adapter-react-ui';
+import { WalletProvider } from '@boxfox/neo-wallet-adapter-react';
+import { WalletAdapterNetwork } from '@boxfox/neo-wallet-adapter-base';
+import { getNeoLineWallet, getO3Wallet, getWalletConnect } from '@boxfox/neo-wallet-adapter-wallets';
+import { WalletModalProvider, WalletDisconnectButton, WalletMultiButton } from '@boxfox/neo-wallet-adapter-react-ui';
 
 // Default styles that can be overridden by your app
 require('@rentfuse-labs/neo-wallet-adapter-react-ui/styles.css');
@@ -111,8 +106,8 @@ For example, to show your logo:
 ### Usage
 
 ```tsx
-import { waitTx, WitnessScope, WalletNotConnectedError } from '@rentfuse-labs/neo-wallet-adapter-base';
-import { useWallet } from '@rentfuse-labs/neo-wallet-adapter-react';
+import { waitTx, WitnessScope, WalletNotConnectedError } from '@boxfox/neo-wallet-adapter-base';
+import { useWallet } from '@boxfox/neo-wallet-adapter-react';
 import { u, sc, wallet } from '@cityofzion/neon-js';
 import React, { useCallback } from 'react';
 
@@ -209,7 +204,7 @@ The core [wallets](https://github.com/rentfuse-labs/neo-wallet-adapter/tree/mast
 | [neoline](https://github.com/rentfuse-labs/neo-wallet-adapter/tree/master/packages/neoline)             | Adapter for [NeoLine](https://neoline.io/)             | [`@rentfuse-labs/neo-wallet-adapter-neoline`](https://npmjs.com/package/@rentfuse-labs/neo-wallet-adapter-neoline)             |
 | [o3](https://github.com/rentfuse-labs/neo-wallet-adapter/tree/master/packages/o3)                       | Adapter for [O3](https://o3.network/)                  | [`@rentfuse-labs/neo-wallet-adapter-o3`](https://npmjs.com/package/@rentfuse-labs/neo-wallet-adapter-o3)                       |
 | [walletconnect](https://github.com/rentfuse-labs/neo-wallet-adapter/tree/master/packages/walletconnect) | Adapter for [WalletConnect](https://walletconnect.org) | [`@rentfuse-labs/neo-wallet-adapter-walletconnect`](https://npmjs.com/package/@rentfuse-labs/neo-wallet-adapter-walletconnect) |
-| [onegate](https://github.com/rentfuse-labs/neo-wallet-adapter/tree/master/packages/onegate) | Adapter for [OneGate](https://onegate.space) | [`@rentfuse-labs/neo-wallet-adapter-onegate`](https://npmjs.com/package/@rentfuse-labs/neo-wallet-adapter-onegate) |
+| [onegate](https://github.com/rentfuse-labs/neo-wallet-adapter/tree/master/packages/onegate)             | Adapter for [OneGate](https://onegate.space)           | [`@rentfuse-labs/neo-wallet-adapter-onegate`](https://npmjs.com/package/@rentfuse-labs/neo-wallet-adapter-onegate)             |
 
 ## ⚙️ Build from Source
 

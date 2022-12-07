@@ -1,5 +1,5 @@
-import { useWallet } from '@rentfuse-labs/neo-wallet-adapter-react';
-import { WalletName } from '@rentfuse-labs/neo-wallet-adapter-wallets';
+import { useWallet } from '@boxfox/neo-wallet-adapter-react';
+import { WalletName } from '@boxfox/neo-wallet-adapter-wallets';
 import { Menu, Modal, ModalProps } from 'antd';
 import React, { MouseEvent, useCallback, useMemo, useState } from 'react';
 import { useWalletModal } from '../hooks';

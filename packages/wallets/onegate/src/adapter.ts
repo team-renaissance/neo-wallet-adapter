@@ -17,7 +17,7 @@ import {
 	WalletError,
 	WalletMethodNotSupportedError,
 	WalletNotConnectedError,
-} from '@rentfuse-labs/neo-wallet-adapter-base';
+} from '@boxfox/neo-wallet-adapter-base';
 import { INeoDapi, NeoDapi } from '@neongd/neo-dapi';
 import { INeoProvider } from '@neongd/neo-provider';
 

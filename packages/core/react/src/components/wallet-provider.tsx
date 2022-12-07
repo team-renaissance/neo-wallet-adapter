@@ -8,8 +8,8 @@ import {
 	WalletNotConnectedError,
 	WalletNotReadyError,
 	SignMessageInvocation,
-} from '@rentfuse-labs/neo-wallet-adapter-base';
-import { Wallet, WalletName } from '@rentfuse-labs/neo-wallet-adapter-wallets';
+} from '@boxfox/neo-wallet-adapter-base';
+import { Wallet, WalletName } from '@boxfox/neo-wallet-adapter-wallets';
 import React, { ReactNode, useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { WalletNotSelectedError } from '../utils/errors';
 import { WalletContext } from '../hooks/use-wallet';

@@ -1,5 +1,5 @@
 {
-	"name": "@rentfuse-labs/neo-wallet-adapter-react",
+	"name": "@boxfox/neo-wallet-adapter-react",
 	"version": "0.4.0",
 	"author": "Rentfuse Labs",
 	"repository": "https://github.com/rentfuse-labs/neo-wallet-adapter",
@@ -15,20 +15,20 @@
 		"LICENSE"
 	],
 	"publishConfig": {
-		"access": "public"
+		"registry": "https://boxfox.bytesafe.dev/r/boxfox/"
 	},
 	"scripts": {
 		"clean": "shx rm -rf lib/*",
 		"build": "yarn clean && tsc --build tsconfig.json tsconfig.esm.json"
 	},
 	"peerDependencies": {
-		"@rentfuse-labs/neo-wallet-adapter-base": "^0.4.0",
-		"@rentfuse-labs/neo-wallet-adapter-wallets": "^0.4.0",
+		"@boxfox/neo-wallet-adapter-base": "^0.4.0",
+		"@boxfox/neo-wallet-adapter-wallets": "^0.4.0",
 		"react": "^17.0.2"
 	},
 	"devDependencies": {
-		"@rentfuse-labs/neo-wallet-adapter-base": "^0.4.0",
-		"@rentfuse-labs/neo-wallet-adapter-wallets": "^0.4.0",
+		"@boxfox/neo-wallet-adapter-base": "^0.4.0",
+		"@boxfox/neo-wallet-adapter-wallets": "^0.4.0",
 		"react": "^17.0.2",
 		"@types/react": "^17.0.24"
 	}

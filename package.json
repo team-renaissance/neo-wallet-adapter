@@ -1,6 +1,6 @@
 {
 	"private": true,
-	"name": "@rentfuse-labs/neo-wallet-adapter",
+	"name": "@boxfox/neo-wallet-adapter",
 	"author": "Rentfuse Labs",
 	"repository": "https://github.com/rentfuse-labs/neo-wallet-adapter",
 	"license": "Apache-2.0",
@@ -20,7 +20,7 @@
 		"node": ">= 10"
 	},
 	"publishConfig": {
-		"access": "public"
+		"registry": "https://boxfox.bytesafe.dev/r/boxfox/"
 	},
 	"scripts": {
 		"lerna:clean": "lerna run clean",

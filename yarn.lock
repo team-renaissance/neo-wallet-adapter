@@ -1404,6 +1404,69 @@
   dependencies:
     "@octokit/openapi-types" "^11.2.0"
 
+"@boxfox/neo-wallet-adapter-ant-design@^0.4.0":
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/@rentfuse-labs/neo-wallet-adapter-ant-design/-/neo-wallet-adapter-ant-design-0.4.0.tgz#70d96987afd07b659ed55d9e10aa12f17f30d340"
+  integrity sha512-NIl6NiiKSnu6WjhHbS2W9jxtg43yFgPGkuXt5StIAly+pk8y/83kjEk1YYojws0k3epRfRz11YQjiX5RD/D/hg==
+
+"@boxfox/neo-wallet-adapter-base@^0.4.0":
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/@rentfuse-labs/neo-wallet-adapter-base/-/neo-wallet-adapter-base-0.4.0.tgz#e89eb132b050cdfcc8ddcc891d3a0547bfe8d46f"
+  integrity sha512-uMi5VjsgcgBE7P2c8hBwNtDCCu+Pi/BqYn2fCNIXjmr5moTFNlDPYCHhqRZDB2Z1oC1NmNcqGjG9OPC7sWnFCQ==
+  dependencies:
+    eventemitter3 "^4.0.7"
+
+"@boxfox/neo-wallet-adapter-neoline@^0.4.0":
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/@rentfuse-labs/neo-wallet-adapter-neoline/-/neo-wallet-adapter-neoline-0.4.0.tgz#1f68f995dadd202582049fe719c2af7f0978a192"
+  integrity sha512-lxjpLaVaqXK6Cj2yPnishO3RYwfVX6rVN3qBVmePxISYkaOIFaaB3k/Dw8Y1SFXYkjq+WV6e7iwvXcOqfMADQw==
+
+"@boxfox/neo-wallet-adapter-o3@^0.4.0":
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/@rentfuse-labs/neo-wallet-adapter-o3/-/neo-wallet-adapter-o3-0.4.0.tgz#2440f174780bc23659ad6bbf32c6980d74054d7e"
+  integrity sha512-4Zv/NF7kGPAtR2pT8wkscBbHCtoQAwm+vp/itL8DgXM7kC8cQCK6pI6ISU0u5psftDSAsQkeDEjMPn0OjWcEhA==
+  dependencies:
+    neo3-dapi "^1.0.1"
+
+"@boxfox/neo-wallet-adapter-onegate@^0.4.0":
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/@rentfuse-labs/neo-wallet-adapter-onegate/-/neo-wallet-adapter-onegate-0.4.0.tgz#e30fb8ca370ae4df4f4bdbd8a694b373f7eb4499"
+  integrity sha512-hVZ69YybcBLzjt3gyE4tQcq2ooImmsynNjifOtDcYeQ2sEAQr62iM72IBjIYFXolfY0EMjmOL3bkhzuQPIoC2w==
+  dependencies:
+    "@neongd/neo-dapi" "1.0.1"
+    "@neongd/neo-provider" "^1.0.1"
+
+"@boxfox/neo-wallet-adapter-react-ui@^0.4.0":
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/@rentfuse-labs/neo-wallet-adapter-react-ui/-/neo-wallet-adapter-react-ui-0.4.0.tgz#abf3bdfb576b556c6d2be961b83177dc531a33a2"
+  integrity sha512-W99DnDzyu++CWU0WOnXVrNjvHUnJUAngL8F/QJCOVoKFFeJpnXcIqRN+wycoSAlQMUcssbkTriFqa0DRFYTVYA==
+
+"@boxfox/neo-wallet-adapter-react@^0.4.0":
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/@rentfuse-labs/neo-wallet-adapter-react/-/neo-wallet-adapter-react-0.4.0.tgz#8d5fca4c662aea07eaccc3ecf1eb779ae35a4f41"
+  integrity sha512-PG3CEjHXF5LVupnv4MMSWzDXBNsoxJzkc7e3+1ADy4HxPb/tzETwB3xEM65YP0lMUX5XuliImM9I1jgGhczTdw==
+
+"@boxfox/neo-wallet-adapter-walletconnect@^0.4.0":
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/@rentfuse-labs/neo-wallet-adapter-walletconnect/-/neo-wallet-adapter-walletconnect-0.4.0.tgz#fe7d176be0b1c05420bca981d381af5ee710a29b"
+  integrity sha512-e3856LjgFwoxlzRtRHGUbylt1TkkOAt9Zo1HMPHCNy2UhTbcgCoo6vDtihJ9xfJJSrhLZUcSB5BfMbDWcK066Q==
+  dependencies:
+    "@cityofzion/wallet-connect-sdk-core" "2.1.0"
+    "@types/pino" "^6.3.11"
+    "@walletconnect/sign-client" "2.0.0-rc.3"
+    "@walletconnect/types" "2.0.0-rc.3"
+    better-sqlite3 "^7.6.2"
+
+"@boxfox/neo-wallet-adapter-wallets@^0.4.0":
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/@rentfuse-labs/neo-wallet-adapter-wallets/-/neo-wallet-adapter-wallets-0.4.0.tgz#a6befc4a5725ddfc882f2643dc28b011953d2331"
+  integrity sha512-pwzC/E3//4cAb4p/YIiNwraaR7TThkLiHz3V+7h2CQgxkH2G5mhJ94gWmgOad9+3YD+Ib8WJJ8T0bor3u4EQVw==
+  dependencies:
+    "@boxfox/neo-wallet-adapter-neoline" "^0.4.0"
+    "@boxfox/neo-wallet-adapter-o3" "^0.4.0"
+    "@boxfox/neo-wallet-adapter-onegate" "^0.4.0"
+    "@boxfox/neo-wallet-adapter-walletconnect" "^0.4.0"
+
 "@rushstack/eslint-patch@^1.0.6":
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/@rushstack/eslint-patch/-/eslint-patch-1.1.0.tgz#7f698254aadf921e48dda8c0a6b304026b8a9323"

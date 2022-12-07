@@ -1,5 +1,5 @@
-import { useWallet } from '@rentfuse-labs/neo-wallet-adapter-react';
-import { WalletName } from '@rentfuse-labs/neo-wallet-adapter-wallets';
+import { useWallet } from '@boxfox/neo-wallet-adapter-react';
+import { WalletName } from '@boxfox/neo-wallet-adapter-wallets';
 import React, { MouseEvent, ReactNode, useCallback, useLayoutEffect, useMemo, useRef, useState } from 'react';
 import { createPortal } from 'react-dom';
 import { WalletButton } from './wallet-button';

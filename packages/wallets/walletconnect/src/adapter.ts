@@ -15,7 +15,7 @@ import {
 	WalletDisconnectionError,
 	WalletError,
 	WalletNotConnectedError,
-} from '@rentfuse-labs/neo-wallet-adapter-base';
+} from '@boxfox/neo-wallet-adapter-base';
 import SignClient from '@walletconnect/sign-client';
 import { SignClientTypes } from '@walletconnect/types';
 

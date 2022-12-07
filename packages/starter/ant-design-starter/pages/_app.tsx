@@ -1,4 +1,4 @@
-import { WalletModalProvider } from '@rentfuse-labs/neo-wallet-adapter-ant-design';
+import { WalletModalProvider } from '@boxfox/neo-wallet-adapter-ant-design';
 import { AppProps } from 'next/app';
 import React from 'react';
 import { WalletConnectionProvider } from '../components/wallet-connection-provider';

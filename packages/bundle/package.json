@@ -1,5 +1,5 @@
 {
-	"name": "@rentfuse-labs/neo-wallet-adapter-bundle",
+	"name": "@boxfox/neo-wallet-adapter-bundle",
 	"version": "0.4.0",
 	"author": "Rentfuse Labs",
 	"repository": "https://github.com/rentfuse-labs/neo-wallet-adapter",
@@ -12,7 +12,7 @@
 		"LICENSE"
 	],
 	"publishConfig": {
-		"access": "public"
+		"registry": "https://boxfox.bytesafe.dev/r/boxfox/"
 	},
 	"scripts": {
 		"clean": "shx rm -rf lib/*",
@@ -20,7 +20,7 @@
 		"build": "yarn clean && yarn cdn"
 	},
 	"dependencies": {
-		"@rentfuse-labs/neo-wallet-adapter-base": "^0.4.0",
-		"@rentfuse-labs/neo-wallet-adapter-wallets": "^0.4.0"
+		"@boxfox/neo-wallet-adapter-base": "^0.4.0",
+		"@boxfox/neo-wallet-adapter-wallets": "^0.4.0"
 	}
 }
