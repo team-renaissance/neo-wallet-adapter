@@ -1,11 +1,11 @@
 {
 	"name": "@boxfox/neo-wallet-adapter-react-ui",
-	"version": "0.4.0",
+	"version": "0.4.1",
 	"author": "Rentfuse Labs",
 	"repository": "https://github.com/rentfuse-labs/neo-wallet-adapter",
 	"license": "Apache-2.0",
 	"main": "lib/index.js",
-  "module": "lib/esm/index.js",
+	"module": "lib/esm/index.js",
 	"esnext": "lib/index.js",
 	"types": "lib/index.d.ts",
 	"files": [
@@ -29,12 +29,12 @@
 		"react-dom": "^17.0.2"
 	},
 	"devDependencies": {
-		"@boxfox/neo-wallet-adapter-base": "^0.4.0",
-		"@boxfox/neo-wallet-adapter-react": "^0.4.0",
-		"@boxfox/neo-wallet-adapter-wallets": "^0.4.0",
-		"react": "^17.0.2",
-		"react-dom": "^17.0.2",
+		"@boxfox/neo-wallet-adapter-base": "^0.4.1",
+		"@boxfox/neo-wallet-adapter-react": "^0.4.1",
+		"@boxfox/neo-wallet-adapter-wallets": "^0.4.1",
 		"@types/react": "^17.0.24",
-		"@types/react-dom": "^17.0.11"
+		"@types/react-dom": "^17.0.11",
+		"react": "^17.0.2",
+		"react-dom": "^17.0.2"
 	}
 }

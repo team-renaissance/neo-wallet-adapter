@@ -1,7 +1,7 @@
 {
 	"private": true,
 	"name": "@boxfox/neo-wallet-adapter-nextjs-starter",
-	"version": "0.4.0",
+	"version": "0.4.1",
 	"author": "Rentfuse Labs",
 	"repository": "https://github.com/rentfuse-labs/neo-wallet-adapter",
 	"license": "Apache-2.0",
@@ -27,11 +27,11 @@
 		"lint": "next lint"
 	},
 	"dependencies": {
+		"@boxfox/neo-wallet-adapter-base": "^0.4.1",
+		"@boxfox/neo-wallet-adapter-react": "^0.4.1",
+		"@boxfox/neo-wallet-adapter-react-ui": "^0.4.1",
+		"@boxfox/neo-wallet-adapter-wallets": "^0.4.1",
 		"@cityofzion/neon-js": "^5.0.0",
-		"@boxfox/neo-wallet-adapter-base": "^0.4.0",
-		"@boxfox/neo-wallet-adapter-react": "^0.4.0",
-		"@boxfox/neo-wallet-adapter-react-ui": "^0.4.0",
-		"@boxfox/neo-wallet-adapter-wallets": "^0.4.0",
 		"next": "^11.1.2",
 		"next-compose-plugins": "^2.2.1",
 		"react": "^17.0.2",

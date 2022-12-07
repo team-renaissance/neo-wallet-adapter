@@ -1,12 +1,12 @@
 {
 	"name": "@boxfox/neo-wallet-adapter-wallets",
-	"version": "0.4.0",
+	"version": "0.4.1",
 	"author": "Rentfuse Labs",
 	"repository": "https://github.com/rentfuse-labs/neo-wallet-adapter",
 	"license": "Apache-2.0",
 	"sideEffects": false,
 	"main": "lib/index.js",
-  "module": "lib/esm/index.js",
+	"module": "lib/esm/index.js",
 	"esnext": "lib/index.js",
 	"types": "lib/index.d.ts",
 	"files": [
@@ -22,15 +22,15 @@
 		"build": "yarn clean && tsc --build tsconfig.json tsconfig.esm.json"
 	},
 	"dependencies": {
-		"@boxfox/neo-wallet-adapter-walletconnect": "^0.4.0",
-		"@boxfox/neo-wallet-adapter-neoline": "^0.4.0",
-		"@boxfox/neo-wallet-adapter-o3": "^0.4.0",
-		"@boxfox/neo-wallet-adapter-onegate": "^0.4.0"
+		"@boxfox/neo-wallet-adapter-neoline": "^0.4.1",
+		"@boxfox/neo-wallet-adapter-o3": "^0.4.1",
+		"@boxfox/neo-wallet-adapter-onegate": "^0.4.1",
+		"@boxfox/neo-wallet-adapter-walletconnect": "^0.4.1"
 	},
 	"peerDependencies": {
 		"@boxfox/neo-wallet-adapter-base": "^0.4.0"
 	},
 	"devDependencies": {
-		"@boxfox/neo-wallet-adapter-base": "^0.4.0"
+		"@boxfox/neo-wallet-adapter-base": "^0.4.1"
 	}
 }

@@ -1,12 +1,12 @@
 {
 	"name": "@boxfox/neo-wallet-adapter-onegate",
-	"version": "0.4.0",
+	"version": "0.4.1",
 	"author": "Rentfuse Labs",
 	"repository": "https://github.com/rentfuse-labs/neo-wallet-adapter",
 	"license": "Apache-2.0",
 	"sideEffects": false,
 	"main": "lib/index.js",
-  "module": "lib/esm",
+	"module": "lib/esm",
 	"esnext": "lib/index.js",
 	"types": "lib/index.d.ts",
 	"files": [
@@ -29,6 +29,6 @@
 		"@boxfox/neo-wallet-adapter-base": "^0.4.0"
 	},
 	"devDependencies": {
-		"@boxfox/neo-wallet-adapter-base": "^0.4.0"
+		"@boxfox/neo-wallet-adapter-base": "^0.4.1"
 	}
 }
