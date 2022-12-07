@@ -6,6 +6,7 @@
 	"license": "Apache-2.0",
 	"sideEffects": false,
 	"main": "lib/index.js",
+  "module": "lib/esm/index.js",
 	"esnext": "lib/index.js",
 	"types": "lib/index.d.ts",
 	"files": [
@@ -18,7 +19,7 @@
 	},
 	"scripts": {
 		"clean": "shx rm -rf lib/*",
-		"build": "yarn clean && tsc"
+		"build": "yarn clean && tsc --build tsconfig.json tsconfig.esm.json"
 	},
 	"peerDependencies": {
 		"@rentfuse-labs/neo-wallet-adapter-base": "^0.4.0",

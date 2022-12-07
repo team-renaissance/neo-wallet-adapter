@@ -6,6 +6,7 @@
 	"license": "Apache-2.0",
 	"sideEffects": false,
 	"main": "lib/index.js",
+  "module": "lib/esm/index.js",
 	"types": "lib/index.d.ts",
 	"files": [
 		"lib",
@@ -17,7 +18,7 @@
 	},
 	"scripts": {
 		"clean": "shx rm -rf lib/*",
-		"build": "yarn clean && tsc"
+		"build": "yarn clean && tsc --build tsconfig.json tsconfig.esm.json"
 	},
 	"dependencies": {
 		"eventemitter3": "^4.0.7"
