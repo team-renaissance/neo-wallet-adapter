@@ -19,9 +19,6 @@
 	"engines": {
 		"node": ">= 10"
 	},
-	"publishConfig": {
-		"registry": "https://boxfox.bytesafe.dev/r/boxfox/"
-	},
 	"scripts": {
 		"lerna:clean": "lerna run clean",
 		"lerna:build": "lerna run build",
@@ -29,7 +26,7 @@
 		"lerna:build-link": "yarn run lerna:build && yarn run lerna:link",
 		"lerna:bootstrap": "lerna bootstrap",
 		"lerna:test": "lerna run test",
-		"lerna:publish": "lerna publish from-package",
+		"lerna:publish": "lerna publish patch --registry https://bookspace.bytesafe.dev/r/boxfox/ -y",
 		"starter:nextjs-dev": "cd packages/starter/nextjs-starter && yarn run dev",
 		"starter:ant-design-dev": "cd packages/starter/ant-design-starter && yarn run dev",
 		"cdn:dist": "cd packages/bundle && yarn run dist:prod",
